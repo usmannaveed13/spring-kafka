@@ -20,6 +20,6 @@ public class FixedRateProducer {
     public void sendMessage() {
         i++;
         logger.info("i is " + i);
-        kafkaTemplate.send("t_fixedrate", "Fixed rate " + i);
+        kafkaTemplate.send("t_fixedrate_2", "Fixed rate " + i);
     }
 }
